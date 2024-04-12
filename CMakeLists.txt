@@ -13,6 +13,7 @@ add_definitions(-DSQLITE_ENABLE_FTS5)
 add_definitions(-DSQLITE_ENABLE_JSON1)
 add_definitions(-DSQLITE_ENABLE_RBU)
 add_definitions(-DSQLITE_ENABLE_STAT4)
+add_definitions(-DSQLITE_HAS_CODEC)
 
 # Uncomment this for single-threaded variant (faster)
 #add_definitions(-DSQLITE_THREADSAFE=0)
